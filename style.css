@@ -23,7 +23,7 @@
   padding-left: 0px;
   margin: auto;
   display: grid;
-  background-color:D83F87;
+  background-color:#123C69;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 }
@@ -39,13 +39,13 @@
 .knapp:hover
 {
   color:black;
-  background-color:D83F87;
+  background-color:#EDC7B7;
 }
 
 .social
 {
   text-decoration: none;
-  color: D83F87;
+  color: #EDC7B7;
 }
 
 
@@ -55,7 +55,7 @@
   display: grid;
   grid-column: 7;
   color: #F7F9FB;
-  background-color: #E85A4F;
+  background-color: #123C69;
   border-radius: 5px;
   border-style: none;
   margin-top: 32px;
@@ -68,7 +68,7 @@
 
 .nav
 {
-  background-color: D83F87;
+  background-color:#123C69;
 }
 
 nav ul
@@ -88,7 +88,7 @@ nav ul a:hover
 
 .nav-list
 {
-  color:#F7F9FB;
+  color:#EDC7B7;
   grid-column: auto;
   padding:20px 15px 20px 15px;
   margin: 0px;
@@ -98,36 +98,4 @@ nav ul a:hover
   text-decoration: none;
   display: inline;
   text-align: center;
-}
-
-.footer
-{
-  background-color: blue;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin-top: 20px;
-  padding-top: 5px;
-  color: #F7F9FB;
-}
-
-.footer-company
-{
-  grid-column: 1;
-}
-
-.footer-logga
-{
-  height: 50px;
-}
-
-.copyright
-{
-  font-size: 10px;
-  margin-left: 10px;
-}
-
-.footer-text {
-  grid-column: 6;
-  padding: 10px;
-
 }
