@@ -1,1 +1,133 @@
+/* Home page */
 
+.body
+{
+  color: black;
+  margin: 0px 0px 0px 0px;
+  font-family: Verdana,sans-serif;
+}
+
+.html
+{
+  scroll-behavior: smooth;
+}
+
+.wrapper
+{
+
+}
+
+.header
+{
+  padding-right: 1%;
+  padding-left: 0px;
+  margin: auto;
+  display: grid;
+  background-color:D83F87;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.logga
+{
+  display: grid;
+  height: 100px;
+  grid-column: 1;
+  padding: 0.5em 1em;
+}
+
+.knapp:hover
+{
+  color:black;
+  background-color:D83F87;
+}
+
+.social
+{
+  text-decoration: none;
+  color: D83F87;
+}
+
+
+.knapp
+{
+  padding:  10px 30px 10px 30px;
+  display: grid;
+  grid-column: 7;
+  color: #F7F9FB;
+  background-color: #E85A4F;
+  border-radius: 5px;
+  border-style: none;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-decoration: none;
+  max-width: 70px;
+  height:  20px;
+  text-align: center;
+}
+
+.nav
+{
+  background-color: D83F87;
+}
+
+nav ul
+{
+  display: grid;
+  margin: 0px;
+  padding: 0px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+nav ul a:hover
+{
+  background-color: #E3AFBC;
+  color: black
+}
+
+
+.nav-list
+{
+  color:#F7F9FB;
+  grid-column: auto;
+  padding:20px 15px 20px 15px;
+  margin: 0px;
+  font-size: 17px;
+  grid-column: auto;
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+}
+
+.footer
+{
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 20px;
+  padding-top: 5px;
+  color: #F7F9FB;
+}
+
+.footer-company
+{
+  grid-column: 1;
+}
+
+.footer-logga
+{
+  height: 50px;
+}
+
+.copyright
+{
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.footer-text {
+  grid-column: 6;
+  padding: 10px;
+
+}
