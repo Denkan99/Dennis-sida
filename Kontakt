@@ -22,32 +22,14 @@
   
       <nav class="nav">
         <ul>
-          <li class="nav-list"><a href="index.html" class="nav-list">Hem</a></li>
-          <li class="nav-list"><a href="pizza.html" class="nav-list">Pizza</a></li>
-          <li class="nav-list"><a href="kebab.html" class="nav-list">Kebab</a></li>
-          <li class="nav-list"><a href="sallader.html" class="nav-list">Sallader</a></li>
-          <li class="nav-list"><a href="kontakt.html" class="nav-list">Kontakt</a></li>
+          <li class="nav-list"><a href="Index.html" class="nav-list">Hem</a></li>
+          <li class="nav-list"><a href="Meny.html" class="nav-list">Meny</a></li>
+          <li class="nav-list"><a href="Bagaren.html" class="nav-list">Bagaren</a></li>
+          <li class="nav-list"><a href="Kontakt.html" class="nav-list">Kontakt</a></li>
         </ul>
       </nav>
-  
-  
-      <main class="home-main">
-  
-        <div class="home-text-div">
-          <div>
-            <h1 class="home-slogan">Vi bakar</h1>
-            <h1 class="home-slogan">Vi kan pizza!</h1>
-          </div>
-  
-          <p class="home-rubrik"><strong>Smakupplevelse du aldrig varit med om.</strong></p>
 
-          <a href="kontakt.html#kontaktaoss" class="knapp">Kontakt</a>
-  
-        </div>
-
-      </main>
-
-      <footer class="footer">
+      <footer class="footernotabsolute">
 
         <div class="footer-company">
           <a href="index.html"> <img src="images/LogoMakr_28YTMK.png" alt="Logotyp" class="footer-logga"> </a>
@@ -65,6 +47,6 @@
     
       </footer>
 
-     </div>
+    
     </body>
     </html>
