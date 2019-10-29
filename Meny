@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizzierahome</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<body class="home-body">
+
+    <div id="wrapper">
+  
+      <header class="header">
+  
+        <a href="index.html"> <img src="images/LogoMakr_28YTMK.png" alt="Pizza logo" class="logga"> </a>
+
+        <a href="kontakt.html#kontaktaoss" class="knapp">Kontakt</a>
+  
+    </header>
+
+    <nav class="nav">
+      <ul>
+        <li class="nav-list"><a href="Index.html" class="nav-list">Hem</a></li>
+        <li class="nav-list"><a href="Meny.html" class="nav-list">Meny</a></li>
+        <li class="nav-list"><a href="Bagaren.html" class="nav-list">Bagaren</a></li>
+        <li class="nav-list"><a href="Kontakt.html" class="nav-list">Kontakt</a></li>
+      </ul>
+    </nav>
+<br>
+<br>
+    <div class = "rubrik">
+    <h1>Våran meny</h1>
+    </div>
+
+<div class="container">
+    <div class = "rubrik">
+        <h2>Pizza</h2>
+        </div>
+        <article>
+            <p>CAPRICCIOSA</p>
+          <p>Skinka, champinjoner</p>
+        </article>
+        <br>
+        <article>
+            <p>HAWAII</p>
+          <p>Tomatsås, ost, skinka, ananas</p>
+        </article>
+        <br>
+        <article>
+            <p>KYCKLINGPIZZA</p>
+          <p>Tomatsås, ost, kyckling, kebabsås</p>
+        </article>
+        </div>
+        <br>
+        
+ 
+    <div class="container">
+        <div class = "rubrik">
+            <h2>Kebab</h2>
+            </div>
+    <article>
+        <p>CAPRICCIOSA</p>
+      <p>Skinka, champinjoner</p>
+    </article>
+    <br>
+    <article>
+        <p>HAWAII</p>
+      <p>Tomatsås, ost, skinka, ananas</p>
+    </article>
+    <br>
+    <article>
+        <p>KYCKLINGPIZZA</p>
+      <p>Tomatsås, ost, kyckling, kebabsås</p>
+    </article>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class = "rubrik">
+            <h2>Vegetariskt</h2>
+            </div>
+            <article>
+                <p>CAPRICCIOSA</p>
+              <p>Skinka, champinjoner</p>
+            </article>
+            <br>
+            <article>
+                <p>HAWAII</p>
+              <p>Tomatsås, ost, skinka, ananas</p>
+            </article>
+            <br>
+            <article>
+                <p>KYCKLINGPIZZA</p>
+              <p>Tomatsås, ost, kyckling, kebabsås</p>
+            </article>
+            </div>
+            <br>
+            
+    <div class="container">
+        <div class = "rubrik">
+            <h2>Sallad</h2>
+            </div>
+            <article>
+                <p>CAPRICCIOSA</p>
+              <p>Skinka, champinjoner</p>
+            </article>
+            <br>
+            <article>
+                <p>HAWAII</p>
+              <p>Tomatsås, ost, skinka, ananas</p>
+            </article>
+            <br>
+            <article>
+                <p>KYCKLINGPIZZA</p>
+              <p>Tomatsås, ost, kyckling, kebabsås</p>
+            </article>
+            </div>
+            <br>
+            
+
+      <footer class="footernotabsolute">
+
+        <div class="footer-company">
+          <a href="index.html"> <img src="images/LogoMakr_28YTMK.png" alt="Logotyp" class="footer-logga"> </a>
+
+          <p class="copyright">© 2019 Pizzerian. All rights reserved.</p>
+        </div>
+
+        <div class="footer-text">
+
+          <a href="#"><i class="fa fa-instagram social"> @DinPizza</i></a><br>
+          <a href="#"><i class="fa fa-facebook social"> @DinPizza</i></a><br>
+          <a href="#"><i class="fa fa-twitter social"> @DinPizza</i></a><br>
+
+        </div>
+    
+      </footer>
+
+     </div>
+    </body>
+    </html>
