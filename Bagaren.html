@@ -20,14 +20,32 @@
   
       </header>
   
-      <nav class="nav">
-        <ul>
-          <li class="nav-list"><a href="Index.html" class="nav-list">Hem</a></li>
-          <li class="nav-list"><a href="Meny.html" class="nav-list">Meny</a></li>
-          <li class="nav-list"><a href="Bagaren.html" class="nav-list">Bagaren</a></li>
-          <li class="nav-list"><a href="Kontakt.html" class="nav-list">Kontakt</a></li>
-        </ul>
-      </nav>
+  
+      <div class="topnav" id="myTopnav">
+        <a href="Index.html" class ="active">Hem</a>
+        <a href="Meny.html" >Meny</a>
+        <a href="Bagaren.html">Bagaren</a>
+        <a href="Kontakt.html">Kontakt</a>
+        <a href="OmOss.html">Om oss</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+      <div style="padding-left:16px"></div>
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+
+  
 
 
       <div class="about-section">
@@ -39,13 +57,11 @@
               <div class="about">
                 <article>
                 <p>
-                  Detta är Karim. Han har 20 års erfarenhet som pizzabagare och har därför fått ett extra finger för pizzabagandet. Vi är stolta över att ha honom i vårt team, då han inte bara är en fin och vänlig arbetskamrat, 
+                  Detta är Karim en Tredje. Han har 20 års erfarenhet som pizzabagare och har därför fått ett extra finger för pizzabagandet. Vi är stolta över att ha honom i vårt team, då han inte bara är en fin och vänlig arbetskamrat, 
                   det finns statistik som säger att Karim är bäst på det han gör.
                   Och vi tror på statistiken. Se menyn och välj bland hans läckerheter.
-                  
-                  <img src="images/pizza-2487090_1920.png" alt="Bagaren" class="bildbagaren">
-                  
                 </p>
+                <img src="images/pizza-2487090_1920.png" alt="Bagaren" class="bildbagaren">
               </article>
               
                   <a href="Meny.html">Meny</a>
