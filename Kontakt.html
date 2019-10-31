@@ -20,15 +20,36 @@
   
       </header>
   
-      <nav class="nav">
-        <ul>
-          <li class="nav-list"><a href="Index.html" class="nav-list">Hem</a></li>
-          <li class="nav-list"><a href="Meny.html" class="nav-list">Meny</a></li>
-          <li class="nav-list"><a href="Bagaren.html" class="nav-list">Bagaren</a></li>
-          <li class="nav-list"><a href="Kontakt.html" class="nav-list">Kontakt</a></li>
-        </ul>
-      </nav>
+  
+      <div class="topnav" id="myTopnav">
+        <a href="Index.html" class ="active">Hem</a>
+        <a href="Meny.html" >Meny</a>
+        <a href="Bagaren.html">Bagaren</a>
+        <a href="Kontakt.html">Kontakt</a>
+        <a href="OmOss.html">Om oss</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+      <div style="padding-left:16px"></div>
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
 
+<div class="about-section">
+  <h1>Kontakt</h1>
+  <div class="border"></div>
+
+  
       <footer class="footernotabsolute">
 
         <div class="footer-company">
