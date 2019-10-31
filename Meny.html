@@ -6,8 +6,6 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-
-
 <body class="home-body">
 
     <div id="wrapper">
@@ -20,25 +18,43 @@
   
     </header>
 
-    <nav class="nav">
-      <ul>
-        <li class="nav-list"><a href="Index.html" class="nav-list">Hem</a></li>
-        <li class="nav-list"><a href="Meny.html" class="nav-list">Meny</a></li>
-        <li class="nav-list"><a href="Bagaren.html" class="nav-list">Bagaren</a></li>
-        <li class="nav-list"><a href="Kontakt.html" class="nav-list">Kontakt</a></li>
-      </ul>
-    </nav>
-<br>
-<br>
-    <div class = "rubrik">
-    <h1>Våran meny</h1>
+  
+    <div class="topnav" id="myTopnav">
+      <a href="Index.html" class ="active">Hem</a>
+      <a href="Meny.html" >Meny</a>
+      <a href="Bagaren.html">Bagaren</a>
+      <a href="Kontakt.html">Kontakt</a>
+      <a href="OmOss.html">Om oss</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
+    
+    <div style="padding-left:16px"></div>
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+<div class="about-section">
+    <h1>Meny</h1>
+    <div class="border"></div>
+
+
 
 <div class="container">
     <div class = "rubrik">
-        <h2>Pizza</h2>
+        <h2>PIZZA</h2>
         </div>
         <article>
+            <br>
             <p>CAPRICCIOSA</p>
           <p>Skinka, champinjoner</p>
         </article>
@@ -53,14 +69,13 @@
           <p>Tomatsås, ost, kyckling, kebabsås</p>
         </article>
         </div>
-        <br>
         
- 
     <div class="container">
         <div class = "rubrik">
-            <h2>Kebab</h2>
+            <h2>KEBAB</h2>
             </div>
     <article>
+      <br>
         <p>CAPRICCIOSA</p>
       <p>Skinka, champinjoner</p>
     </article>
@@ -75,13 +90,13 @@
       <p>Tomatsås, ost, kyckling, kebabsås</p>
     </article>
     </div>
-    <br>
 
     <div class="container">
         <div class = "rubrik">
-            <h2>Vegetariskt</h2>
+            <h2>VEGETARISKT</h2>
             </div>
             <article>
+                <br>
                 <p>CAPRICCIOSA</p>
               <p>Skinka, champinjoner</p>
             </article>
@@ -96,13 +111,13 @@
               <p>Tomatsås, ost, kyckling, kebabsås</p>
             </article>
             </div>
-            <br>
-            
+          
     <div class="container">
         <div class = "rubrik">
-            <h2>Sallad</h2>
+            <h2>SALLAD</h2>
             </div>
             <article>
+                <br>
                 <p>CAPRICCIOSA</p>
               <p>Skinka, champinjoner</p>
             </article>
@@ -117,9 +132,7 @@
               <p>Tomatsås, ost, kyckling, kebabsås</p>
             </article>
             </div>
-            <br>
-            
-
+          
       <footer class="footernotabsolute">
 
         <div class="footer-company">
