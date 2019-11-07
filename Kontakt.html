@@ -4,22 +4,23 @@
   <meta charset="UTF-8">
   <title>Pizzierahome</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 
 
 <body class="home-body">
 
-    <div id="wrapper">
-  
-      <header class="header">
-  
-        <a href="index.html"> <img src="images/LogoMakr_28YTMK.png" alt="Pizza logo" class="logga"> </a>
-  
-        <a href="kontakt.html#kontaktaoss" class="knapp">Kontakt</a>
-  
-      </header>
-  
+  <div id="wrapper">
+
+    <header class="header">
+
+      <a href="index.html"> <img src="images/LogoMakr_28YTMK.png" alt="Pizza logo" class="logga"> </a>
+
+      <a href="kontakt.html#kontaktaoss" class="knapp">Ring oss</a>
+
+    </header>
+
   
       <div class="topnav" id="myTopnav">
         <a href="Index.html" class ="active">Hem</a>
@@ -45,29 +46,43 @@
       }
       </script>
 
-  
-<main class="home-main">
-  
-  <div class="home-text-div">
-    <div>
-      <h1 class="home-slogan">Vi bakar</h1>
-      <h1 class="home-slogan">Vi kan pizza!</h1>
-    </div>
 
-    <p class="home-rubrik"><strong>Smakupplevelse du aldrig varit med om. Välkommen!</strong></p>
+<div class="about-section">
+  <h1>Kontakt</h1>
+  <div class="border"></div>
 
-    <a href="Meny.html#Meny" class="knapp">Meny</a>
-
+  <div class = "kontaktaoss">
+    <article>
+      <p>
+        Ring oss på: 5555-555555<br>
+        Har du några synpunkter eller önskemål? Tveka inte över att kontakta oss via formuläret nedan!
+      </p>
+    </article>
   </div>
 
-</main>
+<br>
 
-      <footer class="footerabsolute">
+  <div class="kontaktkontainer">
+    <form action="/action_page.php">
+      <label for="fname">Förnamn</label>
+      <input type="text" id="fname" name="firstname" placeholder="Ditt namn..">
+  
+      <label for="lname">Efternamn</label>
+      <input type="text" id="lname" name="lastname" placeholder="Ditt efternamn..">
+  
+      <label for="subject">Skriv här</label>
+      <textarea id="subject" name="subject" placeholder="Vad har du i hjärtat?.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  
+      <footer class="footernotabsolute">
 
         <div class="footer-company">
           <a href="index.html"> <img src="images/LogoMakr_28YTMK.png" alt="Logotyp" class="footer-logga"> </a>
 
-          <p class="copyright">© 2019 Pizzerian. All rights reserved.</p>
+          <p class="copyright">© 2019 DinPizza. All rights reserved.</p>
         </div>
 
         <div class="footer-text">
@@ -80,6 +95,7 @@
     
       </footer>
 
-    </div>
+     </div>
+     </div>
     </body>
     </html>
