@@ -223,7 +223,7 @@ body {
 
 .homepage-body
 {
-  background-image: url("./Images/michal-kubalczyk-Vv5u98EFfWk-unsplash.JPG");
+  background-image: url('./Images/michal-kubalczyk-Vv5u98EFfWk-unsplash.JPG');
   background-position: center top;
 }
 
