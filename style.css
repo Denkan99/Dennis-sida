@@ -50,6 +50,17 @@ table {
 
 /*All sidgemensam CSS*/
 
+.home-body
+{
+  background-image: url("");
+  background-position: center top;
+}
+
+.articles
+{
+font-size: 30px
+}
+
 
 #wrapper {
     width: 0 auto;
@@ -120,7 +131,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #8E8D8A;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -208,48 +219,49 @@ body {
   padding: 10px;
 }
 
-
 /* Home page specifikt */
 
-.home-body
+.homepage-body
 {
-  background-image: url("./images/bakgrund-3b.png");
+  background-image: url("./Images/michal-kubalczyk-Vv5u98EFfWk-unsplash.JPG");
   background-position: center top;
 }
 
-.home-main
+.homepage-main
 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
 }
 
-.home-text-div
+.homepage-text-div
 {
   padding-top: 10%;
   grid-column: 1;
   margin-left: 50px;
+  
 }
 
-.home-rubrik
+.homepage-rubrik
 {
   color: #8E8D8A;
 }
 
-.home-slogan
+.homepage-slogan
 {
-  font-size: 50px;
-  color: #8E8D8A;
+  font-size: 80px;
+  color: white;
+  
 }
 
-.articles
-{
-font-size: 30px
-
-
-}
-
-
+@media screen and (max-width: 600px) {
+  .homepage-slogan
+  {
+    font-size: 50px;
+    color: white;
+  }
+  }
+  
 /* Meny page specifikt */
 
 
